@@ -207,7 +207,7 @@ section {
   height: 450px;
   align-self: center;
   border-radius: 40% 25% 40% 25%;
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
 .section__text {
