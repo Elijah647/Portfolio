@@ -19,7 +19,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="absolute top-0 left-0 w-full shadow-xl shadow-slate-600 bg-transparent z-50">
+    <nav className="absolute top-0 left-0 w-full shadow-lg shadow-slate-500 bg-transparent z-50">
       <div className="container mx-auto flex justify-between items-center px-5 py-3 md:p-4 text-white">
         {/* Logo */}
         <div className="text-xl md:text-3xl font-bold">
@@ -94,7 +94,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <ul className="absolute left-0 top-full w-full bg-opacity-70 bg-gray-900 text-white flex flex-col items-center justify-center p-2 space-y-4 z-50 transform transition-all duration-300 ease-in-out opacity-100 translate-y-0">
+        <ul className="absolute left-0 top-full w-full bg-opacity-70 bg-gray-900 text-white flex flex-col items-center justify-center p-2 space-y-1 z-50 transform transition-all duration-300 ease-in-out opacity-90 translate-y-0">
           <li className="relative group w-full">
             <a
               href="#aboutMe"

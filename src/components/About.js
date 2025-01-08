@@ -9,17 +9,17 @@ import {
 
 export default function AboutMe() {
   return (
-    <div className="text-center p-10 md:p-20">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 mb-5 underline decoration-amber-500">
+    <div className="text-center p-10 md:p-10">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 mb-5 lg:mb-0 underline decoration-amber-500">
         About
       </h1>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-1 lg:gap-10">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-1 lg:gap-10 mb-10">
         <img
           src={PP}
           alt="Profile"
           className="w-64 h-64 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl border-2 border-zinc-300"
         />
-        <div className=" w-full md:w-2/3">
+        <div className="w-full md:w-2/3">
           <p className="mb-8 text-center md:text-start md:text-lg md:p-10 lg:px-12 md:mb-6 text-white lg:leading-loose">
             I am an active and passionate individual with a lifelong dedication
             to sports, fostering teamwork and resilience. Over the years, I’ve

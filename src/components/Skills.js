@@ -14,15 +14,14 @@ import {
   faFigma,
 } from "@fortawesome/free-brands-svg-icons"; // Import icons
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
-import firebase from "../assets/firebase.svg";
 
 export default function Skill() {
   return (
-    <div className="text-center py-16 sm:min-h-screen lg:min-h-0 lg:px-20 lg:py-16">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 mb-5 md:mb-6 underline decoration-amber-500">
+    <div className="text-center py-16 sm:min-h-screen lg:min-h-0 lg:px-20 lg:py-10">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 mb-5 underline decoration-amber-500">
         Skills
       </h1>
-      <div class="grid grid-cols-2 px-12 gap-5 my-10 md:my-16 md:gap-5 md:grid-cols-3 md:px-5 lg:gap-16 lg:grid-cols-4 lg:px-52 text-white">
+      <div class="grid grid-cols-2 px-12 gap-5 my-10 md:my-16 md:gap-5 md:grid-cols-3 md:px-5 lg:gap-16 lg:grid-cols-4 lg:px-32 text-white">
         <div class="p-2 flex flex-col">
           <FontAwesomeIcon
             icon={faJs}
