@@ -17,8 +17,8 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 export default function Skill() {
   return (
-    <div className="text-center py-16 sm:min-h-screen lg:min-h-0 lg:px-20 lg:py-10">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 mb-5 underline decoration-amber-500">
+    <div className="text-center py-2 sm:min-h-screen lg:min-h-0 lg:px-20 lg:py-10">
+      <h1 className="text-4xl lg:text-7xl font-bold text-blue-400 mb-5 underline decoration-amber-500">
         Skills
       </h1>
       <div className="grid grid-cols-2 px-12 gap-5 my-10 md:my-16 md:gap-5 md:grid-cols-3 md:px-5 lg:gap-16 lg:grid-cols-4 lg:px-32 text-white">

@@ -9,15 +9,15 @@ import {
 
 export default function AboutMe() {
   return (
-    <div className="text-center p-1 md:p-10">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 mb-5 lg:mb-0 underline decoration-amber-500">
+    <div className="text-center p-2 md:p-10">
+      <h1 className="text-4xl lg:text-7xl font-bold text-blue-400 mb-5 lg:mb-0 underline decoration-amber-500">
         About
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-1 lg:gap-10 mb-10">
         <img
           src={PP}
           alt="Profile"
-          className="w-72 h-64 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl border-2 lg:border-4 border-zinc-100"
+          className="w-72 h-72 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl border-2 lg:border-4 border-zinc-100"
         />
         <div className="w-full md:w-2/3">
           <p className="mb-8 text-center md:text-start md:text-lg md:p-10 lg:px-12 md:mb-6 text-white lg:leading-loose">

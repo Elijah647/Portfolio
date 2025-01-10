@@ -37,8 +37,8 @@ const projects = [
 export default function Projects() {
   return (
     <>
-      <div className="flex flex-col items-center min-h-screen lg:min-h-0 lg:p-2 text-center gap-1 p-10 px-10 md:p-2">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 underline decoration-amber-500 lg:mt-5">
+      <div className="flex flex-col items-center min-h-screen lg:min-h-0 lg:p-2 text-center gap-1 p-2 px-10 md:p-2">
+        <h1 className="text-4xl lg:text-7xl font-bold text-blue-400 underline decoration-amber-500 lg:mt-5">
           Projects
         </h1>
         <div className=" md:flex md:flex-row md:gap-10 my-5 lg:mb-16 lg:px-5">

@@ -25,11 +25,11 @@ export default function Contact() {
 
   return (
     <>
-      <div className="text-center py-20 sm:min-h-screen lg:min-h-0 lg:pb-24">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-10 text-blue-500 md:mb-20 underline decoration-amber-500">
+      <div className="text-center py-10 sm:min-h-screen lg:min-h-0 lg:pb-24">
+        <h1 className="text-4xl lg:text-7xl font-bold mb-10 text-blue-400 md:mb-20 underline decoration-amber-500">
           Get in Touch!
         </h1>
-        <div className="flex flex-col px-16 lg:flex-row-reverse items-center justify-center gap-10 lg:gap-24">
+        <div className="flex flex-col px-2 lg:flex-row-reverse items-center justify-center gap-10 lg:gap-24">
           <div className="lg:flex-col justify-center text-white lg:text-xl lg:text-start">
             <p className="leading-loose">
               Thanks for visiting my page! Don’t let this be the end of the
