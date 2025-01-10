@@ -17,20 +17,20 @@ export default function AboutMe() {
         <img
           src={PP}
           alt="Profile"
-          className="w-64 h-64 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl border-2 border-zinc-300"
+          className="w-64 h-64 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl border-2 lg:border-4 border-zinc-100"
         />
         <div className="w-full md:w-2/3">
           <p className="mb-8 text-center md:text-start md:text-lg md:p-10 lg:px-12 md:mb-6 text-white lg:leading-loose">
-            I am an active and passionate individual with a lifelong dedication
-            to sports, fostering teamwork and resilience. Over the years, I’ve
-            expanded my interests to include golf—because, let’s face it, it was
-            only a matter of time! I have a deep love for travel, driven by my
-            desire to learn from and embrace diverse cultures, which has
-            broadened my perspectives and enriched my personal growth. Being
-            outdoors fuels my creativity and energy, while my appreciation for
-            music brings balance and inspiration to my life. These experiences
-            collectively shape my dynamic and multifaceted approach to
-            challenges and opportunities.
+            I am passionate about web development and design, blending technical
+            expertise with creative ingenuity to craft user-friendly and
+            visually appealing digital solutions. My commitment to lifelong
+            learning drives me to embrace new challenges and continuously hone
+            my skills. In my spare time, I enjoy traveling, learning new
+            languages, listening to music, and playing sports. I approach
+            challenges with determination and confidence in my ability to adapt
+            and acquire new skills. Dedicated to personal and professional
+            growth, I am poised to contribute meaningfully to any domain I
+            venture into.
           </p>
           <div className="flex justify-center md:justify-start gap-5 mt-2 md:mt-0 md:pl-10 lg:pl-12 md:gap-12">
             <a

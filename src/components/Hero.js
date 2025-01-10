@@ -56,7 +56,7 @@ const Hero = () => {
 
         {/* Animated Name with Typewriter Effect */}
         <p
-          className={`text-5xl font-bold text-blue-500 mb-2 md:text-6xl lg:text-7xl underline decoration-amber-500 ${
+          className={`text-5xl font-bold text-blue-400 mb-2 md:text-6xl lg:text-7xl underline decoration-amber-500 ${
             nameCompleted ? "animate-fadeIn" : ""
           }`}
         >

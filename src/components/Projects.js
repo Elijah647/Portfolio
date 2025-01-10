@@ -11,7 +11,8 @@ const projects = [
     description:
       "Restaurant booking system with Formik and Yup for form validation. The Figma-designed prototype ensures branding alignment, and Jest with React Testing Library validates functionalities.",
     image: Llemon, // Replace with your image URLs
-    link: "https://portfolio.com",
+    live: "https://github.com/Elijah647/Little-Lemon-Restaurant",
+    git: "https://github.com/Elijah647/Little-Lemon-Restaurant",
   },
   {
     title: "Viaje de Encuentras",
@@ -19,7 +20,8 @@ const projects = [
     description:
       "A responsive photo gallery showcasing a 5-month trip throughout LATAM. Features include lazy loading for faster performance and Lightbox for focused image viewing.",
     image: Vd, // Replace with your image URLs
-    link: "https://weatherapp.com",
+    live: "https://vde.netlify.app/",
+    git: "https://github.com/Elijah647/Viaje-de-Encuentros",
   },
   {
     title: "ExpTrak",
@@ -27,7 +29,8 @@ const projects = [
     description:
       "Dynamic expense tracker dashboard. It provides real-time updates, robust data validation, and an intuitive interface to simplify financial management. Data is persisted with Local Storage for a seamless experience.",
     image: Exp, // Replace with your image URLs
-    link: "https://weatherapp.com",
+    live: "https://thexptrack.netlify.app/",
+    git: "https://github.com/Elijah647/ExpTrak",
   },
 ];
 
@@ -46,7 +49,8 @@ export default function Projects() {
               tools={project.tools}
               description={project.description}
               image={project.image}
-              link={project.link}
+              live={project.live}
+              git={project.git}
             />
           ))}
         </div>
