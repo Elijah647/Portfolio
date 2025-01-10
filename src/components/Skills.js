@@ -21,50 +21,50 @@ export default function Skill() {
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 mb-5 underline decoration-amber-500">
         Skills
       </h1>
-      <div class="grid grid-cols-2 px-12 gap-5 my-10 md:my-16 md:gap-5 md:grid-cols-3 md:px-5 lg:gap-16 lg:grid-cols-4 lg:px-32 text-white">
-        <div class="p-2 flex flex-col">
+      <div className="grid grid-cols-2 px-12 gap-5 my-10 md:my-16 md:gap-5 md:grid-cols-3 md:px-5 lg:gap-16 lg:grid-cols-4 lg:px-32 text-white">
+        <div className="p-2 flex flex-col">
           <FontAwesomeIcon
             icon={faJs}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           JavaScript
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faReact}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           React
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faAngular}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           Angular
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faGitAlt}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           Git
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faBootstrap}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           Bootstrap
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faPython}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           Python
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faFigma}
             className="text-5xl md:text-6xl lg:text-7xl "
@@ -72,35 +72,35 @@ export default function Skill() {
           Figma
         </div>
 
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faDatabase}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
-          PostgreSQL
+          Databases
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faJava}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           Java
         </div>
-        <div class="flex flex-col p-2 ">
+        <div className="flex flex-col p-2 ">
           <FontAwesomeIcon
             icon={faHtml5}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           Html5
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faCss3}
             className="text-5xl md:text-6xl lg:text-7xl "
           />{" "}
           CSS3
         </div>
-        <div class="flex flex-col p-2">
+        <div className="flex flex-col p-2">
           <FontAwesomeIcon
             icon={faWordpress}
             className="text-5xl md:text-6xl lg:text-7xl "

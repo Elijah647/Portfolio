@@ -15,8 +15,8 @@ export default function ProjectCard({
         src={image}
         alt={title}
       />
-      <h3 className="text-lg font-bold text-white mt-4">{title}</h3>
-      <h4 className="text-md text-white">{tools}</h4>
+      <h3 className="text-2xl font-bold text-white mt-4">{title}</h3>
+      <h4 className="text-md text-white mb-3">{tools}</h4>
       <p className="text-white lg:h-36 lg:px-1 md:py-5">{description}</p>
       <div className="flex justify-center gap-2 lg:gap-5 mb-5">
         <a

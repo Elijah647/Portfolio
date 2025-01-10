@@ -9,7 +9,7 @@ import {
 
 export default function AboutMe() {
   return (
-    <div className="text-center p-10 md:p-10">
+    <div className="text-center p-1 md:p-10">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 mb-5 lg:mb-0 underline decoration-amber-500">
         About
       </h1>
@@ -17,7 +17,7 @@ export default function AboutMe() {
         <img
           src={PP}
           alt="Profile"
-          className="w-64 h-64 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl border-2 lg:border-4 border-zinc-100"
+          className="w-72 h-64 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl border-2 lg:border-4 border-zinc-100"
         />
         <div className="w-full md:w-2/3">
           <p className="mb-8 text-center md:text-start md:text-lg md:p-10 lg:px-12 md:mb-6 text-white lg:leading-loose">
