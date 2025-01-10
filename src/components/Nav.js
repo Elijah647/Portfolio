@@ -23,12 +23,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center px-5 py-3 md:p-4 text-white">
         {/* Logo */}
         <div className="text-xl md:text-3xl font-bold">
-          <a
-            href="#hero"
-            className="transition duration-200 hover:text-blue-500"
-          >
-            EH
-          </a>
+          <a href="#hero">EH</a>
         </div>
 
         {/* Hamburger Icon for Mobile */}
