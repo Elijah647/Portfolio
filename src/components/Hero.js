@@ -77,12 +77,12 @@ const Hero = () => {
         <div className="flex space-x-4 mb-4 opacity-0 animate-fadeInUp delay-1100">
           <button
             onClick={handleClick}
-            className="text-md bg-gray-900 text-white border-yellow-400 p-2 w-28 md:w-36 md:text-lg rounded-full hover:bg-neutral-400 transition duration-300 transform hover:scale-110"
+            className="text-md bg-gray-900 text-white border-yellow-400 p-2 w-28 md:w-36 md:text-lg rounded-full hover:bg-neutral-400 transition duration-300 transform hover:scale-105"
           >
             Resume
           </button>
           <a href="#contact">
-            <button className="text-md bg-white text-black w-28 p-2 md:w-36 md:text-lg rounded-full hover:bg-neutral-400 transition duration-300 transform hover:scale-110">
+            <button className="text-md bg-white text-black w-28 p-2 md:w-36 md:text-lg rounded-full hover:bg-neutral-400 transition duration-300 transform hover:scale-105">
               Contact info
             </button>
           </a>
