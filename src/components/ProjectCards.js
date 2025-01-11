@@ -11,7 +11,7 @@ export default function ProjectCard({
   return (
     <div className="bg-gray-900 border-2 border-gray-200 rounded-lg shadow-md hover:shadow-lg hover:shadow-slate-200 my-2 p-2 w-72 md:w-full mb-5 transition duration-200 hover:scale-105">
       <img
-        className="w-full h-32 md:h-60 object-cover rounded-t-lg"
+        className="w-full h-32 md:h-60 object-fit rounded-t-lg"
         src={image}
         alt={title}
       />

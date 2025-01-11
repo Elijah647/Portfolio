@@ -17,7 +17,7 @@ export default function AboutMe() {
         <img
           src={PP}
           alt="Profile"
-          className="w-72 h-72 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl border-2 lg:border-4 border-zinc-100"
+          className="w-72 h-72 md:w-1/3 md:h-auto object-cover my-5 rounded-full md:rounded-3xl shadow-lg shadow-slate-300"
         />
         <div className="w-full md:w-2/3">
           <p className="mb-8 text-center md:text-start md:text-lg md:p-10 lg:px-12 md:mb-6 text-white lg:leading-loose">

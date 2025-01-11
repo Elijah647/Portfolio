@@ -78,7 +78,7 @@ export default function Contact() {
           {/* Contact Form */}
           <form
             onSubmit={handleSubmit}
-            className="max-w-2xl mx-auto p-8 bg-slate-800 rounded-lg shadow-lg w-full"
+            className="max-w-2xl mx-auto p-8 bg-slate-800 rounded-lg shadow-lg w-full shadow-black"
           >
             <div className="mb-4">
               <label htmlFor="name" className="block text-white font-medium">
