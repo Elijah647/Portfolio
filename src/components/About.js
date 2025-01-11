@@ -10,7 +10,7 @@ import {
 export default function AboutMe() {
   return (
     <div className="text-center p-2 md:p-10">
-      <h1 className="text-4xl lg:text-7xl font-bold text-blue-400 mb-5 lg:mb-0 underline decoration-amber-500">
+      <h1 className="text-4xl lg:text-5xl font-bold text-sky-400 m-5 lg:mb-0 underline decoration-amber-500">
         About
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-1 lg:gap-10 mb-10">

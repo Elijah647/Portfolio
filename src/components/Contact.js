@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
-  faTwitter,
+  faSquareXTwitter,
 } from "@fortawesome/free-brands-svg-icons"; // Import icons
 import { useForm, ValidationError } from "@formspree/react"; // Import Formspree React
 
@@ -26,8 +26,8 @@ export default function Contact() {
   return (
     <>
       <div className="text-center py-10 sm:min-h-screen lg:min-h-0 lg:pb-24">
-        <h1 className="text-4xl lg:text-7xl font-bold mb-10 text-blue-400 md:mb-20 underline decoration-amber-500">
-          Get in Touch!
+        <h1 className="text-4xl lg:text-5xl font-bold mb-10 text-sky-400 md:mb-20 underline decoration-amber-500">
+          Get in Touch
         </h1>
         <div className="flex flex-col px-2 lg:flex-row-reverse items-center justify-center gap-10 lg:gap-24">
           <div className="lg:flex-col justify-center text-white lg:text-xl lg:text-start">
@@ -68,7 +68,7 @@ export default function Contact() {
                 aria-label="Twitter Profile"
               >
                 <FontAwesomeIcon
-                  icon={faTwitter}
+                  icon={faSquareXTwitter}
                   className="w-10 h-10 md:w-12 md:h-12 text-white transition duration-200 hover:brightness-150 hover:scale-110"
                 />
               </a>

@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <div className="bg-gray-950">
+    <div className="bg-gray-900">
       <Navbar />
       <section id="hero" className="relative">
         <Hero />
