@@ -67,7 +67,7 @@ export default function Contact() {
         </h1>
 
         {successMessageVisible ? (
-          <p className="text-green-300 text-center lg:text-2xl p-16 lg:p-32">
+          <p className="text-green-300 text-lg text-center lg:text-2xl">
             Thanks for your message! I will get back to you soon.
           </p>
         ) : (
