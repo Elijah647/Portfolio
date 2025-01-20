@@ -75,9 +75,9 @@ export default function Contact() {
             <div className="lg:flex-col justify-center text-white lg:text-xl lg:text-start">
               <p className="leading-loose">
                 Thanks for visiting my page! Don’t let this be the end of the
-                road—let’s connect and see where we can go from here. I’m
-                excited to hear from you and discuss how we can collaborate or
-                address any questions you may have.
+                road—let’s connect and see where it goes. I’m excited to hear
+                from you and discuss how we can collaborate or address any
+                questions you may have.
               </p>
               {/* Social Media Icons */}
               <div className="mt-5 flex justify-center space-x-6 md:mt-12 md:gap-5">
@@ -134,7 +134,7 @@ export default function Contact() {
                   className="w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Chimbaaa"
+                  placeholder="Chimba Guy"
                 />
               </div>
               <div className="mb-4">
@@ -167,7 +167,7 @@ export default function Contact() {
                   className="w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Soy el chimba guy, encantado!"
+                  placeholder="I’d love to hear from you!"
                 ></textarea>
               </div>
               <button
@@ -175,7 +175,7 @@ export default function Contact() {
                 className={`w-full py-3 px-6 text-white font-semibold rounded-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                   status === "success"
                     ? "bg-green-600 hover:bg-green-700"
-                    : "bg-blue-600 hover:bg-blue-700"
+                    : "bg-sky-600 hover:bg-blue-700"
                 }`}
                 disabled={status === "loading"}
               >

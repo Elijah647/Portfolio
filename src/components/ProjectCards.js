@@ -23,7 +23,7 @@ export default function ProjectCard({
           href={live}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-block text-white text-md w-24 md:w-28 md:text-lg border-2 border-white hover:bg-blue-700 px-2 py-2 rounded-full text-sm font-medium transition-colors"
+          className="mt-4 inline-block text-white text-md w-24 md:w-28 md:text-lg border-2 border-white hover:bg-gray-400 px-2 py-2 rounded-full text-sm font-medium transition-colors"
         >
           Live Demo
         </a>
@@ -31,7 +31,7 @@ export default function ProjectCard({
           href={git}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-block text-white text-md w-24 md:w-28 md:text-lg border-2 border-white hover:bg-blue-700 px-4 py-2 rounded-full text-sm font-medium transition-colors"
+          className="mt-4 inline-block text-white text-md w-24 md:w-28 md:text-lg border-2 border-white hover:bg-gray-400 px-4 py-2 rounded-full text-sm font-medium transition-colors"
         >
           GitHub
         </a>
