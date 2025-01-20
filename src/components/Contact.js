@@ -13,7 +13,6 @@ export default function Contact() {
     message: "",
   });
   const [status, setStatus] = useState(null); // Form submission status
-  const [formVisible, setFormVisible] = useState(true); // Track if form is visible
   const [successMessageVisible, setSuccessMessageVisible] = useState(false); // Track if success message is visible
 
   // Handle form data change
@@ -46,20 +45,17 @@ export default function Contact() {
         setStatus("success");
 
         // Hide the form and show the success message
-        setFormVisible(false);
         setSuccessMessageVisible(true);
 
         // Reset the form data after a delay and re-show the form
         setTimeout(() => {
           setFormData({ name: "", email: "", message: "" }); // Reset form data
           setStatus(null); // Reset status
-          setFormVisible(true); // Show the form again
-          setSuccessMessageVisible(false); // Hide success message
+          setSuccessMessageVisible(false); // Hide success message and show the form again
         }, 3000); // 3 seconds delay to allow the success message to show
       })
       .catch(() => {
         setStatus("error"); // Handle submission error
-        setFormVisible(false); // Hide the form even on error
       });
   };
 
