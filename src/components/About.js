@@ -9,7 +9,7 @@ import {
 
 export default function AboutMe() {
   return (
-    <div className="text-center p-2 md:p-10">
+    <div className="text-center p-2 md:p-10 my-5">
       <h1 className="text-4xl lg:text-5xl font-bold text-sky-400 m-5 lg:mb-0 underline decoration-amber-500">
         About
       </h1>

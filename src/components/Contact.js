@@ -134,6 +134,7 @@ export default function Contact() {
                   className="w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   value={formData.name}
                   onChange={handleChange}
+                  placeholder="Chimbaaa"
                 />
               </div>
               <div className="mb-4">
@@ -148,6 +149,7 @@ export default function Contact() {
                   className="w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   value={formData.email}
                   onChange={handleChange}
+                  placeholder="Chimbaguy@abc.com"
                 />
               </div>
               <div className="mb-4">
@@ -165,6 +167,7 @@ export default function Contact() {
                   className="w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   value={formData.message}
                   onChange={handleChange}
+                  placeholder="Soy el chimba guy, encantado!"
                 ></textarea>
               </div>
               <button
