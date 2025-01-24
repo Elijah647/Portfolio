@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Resume from "../assets/Resume.pdf";
+import Resume from "../assets/Elijah_Hwang_Resume.pdf";
 
 const handleClick = () => {
   window.open(Resume);
