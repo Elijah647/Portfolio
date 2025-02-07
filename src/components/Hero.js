@@ -46,7 +46,7 @@ const Hero = () => {
       style={{ backgroundImage: "url('/bg.jpeg')" }}
     >
       {/* Background Tint Overlay */}
-      <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+      <div className="absolute inset-0 bg-black opacity-65 z-0"></div>
 
       {/* Main Content */}
       <div className="relative z-10 md:w-1/2 text-center md:text-start flex flex-col items-center md:items-start p-5 md:p-1">
